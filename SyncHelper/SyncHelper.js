@@ -21,11 +21,11 @@ module.exports = {
         }
         if (typeof list === 'undefined')
             list = 0
-        data = JSON.parse(fs.readFileSync(`ETS2SH/lists/${game}/${list}/base.json`))
+        data = JSON.parse(fs.readFileSync(`SyncHelper/lists/${game}/${list}/base.json`))
         if (typeof dlcstr !== 'undefined' && dlcstr.length != 0) {
             dlcs = dlcstr.split(',')
             for (i = 0; i < dlcs.length; i++) {
-                temp = JSON.parse(fs.readFileSync(`ETS2SH/lists/${game}/${list}/${dlcs[i]}.json`))
+                temp = JSON.parse(fs.readFileSync(`SyncHelper/lists/${game}/${list}/${dlcs[i]}.json`))
                 data = {
                     ...data,
                     ...temp,

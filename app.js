@@ -2,19 +2,19 @@ const express = require('express')
 const app = express()
 const http = require('http').createServer(app)
 const port = 3000 ;
-const ets2sh = require('./ETS2SH/ETS2SH.js');
+const SyncHelper = require('./SyncHelper/SyncHelper.js');
 const cmd = require("node-cmd");
 const crypto = require("crypto");
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json());
 
-app.get("/ETS2SH/app/check_version", (req, res) => {
-    ets2sh.checkVersion(req, res);
+app.get("/SyncHelper/app/check_version", (req, res) => {
+    SyncHelper.checkVersion(req, res);
 });
 
-app.get("/ETS2SH/app/sync", (req, res) => {
-    ets2sh.sync(req, res);
+app.get("/SyncHelper/app/sync", (req, res) => {
+    SyncHelper.sync(req, res);
 });
 
 const verifySignature = (req, res, next) => {
