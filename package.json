@@ -1,0 +1,25 @@
+{
+  "name": "inklay.github.io",
+  "version": "1.0.0",
+  "description": "Web service for all my projects",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inklay/Inklay.github.io.git"
+  },
+  "author": "Inklay",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Inklay/Inklay.github.io/issues"
+  }
+}
