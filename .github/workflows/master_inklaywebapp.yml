@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'inklaywebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_429313eda5fb4b44aec159a0055a17bc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_75a125df28444824827cbd35397af285 }}
         package: .
