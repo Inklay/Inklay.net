@@ -1,6 +1,6 @@
 module.exports = {
     checkVersion: function(req, res) {
-        const app_version = "5.7.0"
+        const app_version = "5.7.0 PR2"
 
         if (req.query.v != app_version)
             res.status("200").send("outdated")
