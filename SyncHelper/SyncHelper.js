@@ -19,6 +19,15 @@ module.exports = {
             res.status("400").send("Unknown game.")
             return;
         }
+        /*
+         *
+         *  Thiw will be removed when ATS support will (finally) be done
+         * 
+         */
+        if (game == "ats") {
+            res.status("403").send("ATS support not done yet.")
+            return;
+        }
         if (typeof list === 'undefined') {
             var now = new Date();
             var start = new Date(now.getFullYear(), 0, 0);
