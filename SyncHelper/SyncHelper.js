@@ -21,7 +21,7 @@ module.exports = {
         }
         /*
          *
-         *  Thiw will be removed when ATS support will (finally) be done
+         *  This will be removed when ATS support will (finally) be done
          * 
          */
         if (game == "ats") {
