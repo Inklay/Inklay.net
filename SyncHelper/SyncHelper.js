@@ -1,6 +1,6 @@
 module.exports = {
     checkVersion: function(req, res) {
-        const app_version = "5.7.0"
+        const app_version = "5.8.0 PR1"
 
         if (req.query.v != app_version)
             res.status("200").send("outdated")
@@ -17,15 +17,6 @@ module.exports = {
 
         if (game != "ets2" && game != "ats") {
             res.status("400").send("Unknown game.")
-            return;
-        }
-        /*
-         *
-         *  This will be removed when ATS support will (finally) be done
-         * 
-         */
-        if (game == "ats") {
-            res.status("403").send("ATS support not done yet.")
             return;
         }
         if (typeof list === 'undefined') {

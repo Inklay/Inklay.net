@@ -1,0 +1,1 @@
+{"hms_con_svc.san_diego":[{"target":"re_train.yuma","urgency":2,"shortest_distance_km":206,"ferry_time":0,"ferry_price":0,"cargo":"cargo.mulcher","company_truck":"heavy/peterbilt_579","trailer_variant":"trailer.mag_55l_t3.mulcher","trailer_definition":"trailer_def.mulcher.mag_55l_t3.mulcher","units_count":100,"fill_ratio":1,"trailer_place":0}]}

@@ -1,0 +1,1 @@
+{"hms_con_svc.san_diego":[{"target":"re_train.yuma","urgency":1,"shortest_distance_km":206,"ferry_time":0,"ferry_price":0,"cargo":"cargo.kb_loader","company_truck":"heavy/peterbilt_389","trailer_variant":"trailer.kb_loader","trailer_definition":"trailer_def.kb_loader.kb_loader","units_count":100,"fill_ratio":1,"trailer_place":0}]}
