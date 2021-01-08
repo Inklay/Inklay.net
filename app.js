@@ -13,7 +13,7 @@ app.get("/SyncHelper/app/sync", (req, res) => {
     SyncHelper.sync(req, res);
 });
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
     res.status("200").send("Hello there");
 });
 
