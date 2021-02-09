@@ -1,4 +1,4 @@
-cp -rf /etc/letsencrypt/archive/leassistant.com/ ./certificates
+cp -rf /etc/letsencrypt/archive/inklay.net/ ./certificates
 
 docker build --tag server_image .
 
