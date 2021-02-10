@@ -11,4 +11,4 @@ COPY . ./
 ENV CERTIFICATES="/app/certificates"
 ENV USE_HTTPS="true"
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "build"]
