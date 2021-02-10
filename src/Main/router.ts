@@ -6,7 +6,7 @@ import bodyParser from 'koa-bodyparser'
 function index(ctx: any)
 {
     ctx.status = 200
-    ctx.body = '<h1>Lists of projects running on this server:</h1><ul><a href="https://github.com/Inklay/WebService/tree/main/SyncHelper"><li>ETS2 & ATS Sync Helper</li></a></ul>'
+    ctx.body = '<h1>Lists of projects running on this server:</h1><ul><a href="https://github.com/Inklay/WebService/tree/main/src/SyncHelper"><li>ETS2 & ATS Sync Helper</li></a></ul>'
 }
 
 function setupMainRouter(app: Koa)
