@@ -2,11 +2,13 @@
 import Koa from 'koa'
 import Router from 'koa-router'
 import bodyParser from 'koa-bodyparser'
+import { createReadStream } from 'fs'
 
 function index(ctx: any)
 {
+    ctx.type = 'text/html'
     ctx.status = 200
-    ctx.body = '<h1>Lists of projects running on this server:</h1><ul><a href="https://github.com/Inklay/WebService/tree/main/src/SyncHelper"><li>ETS2 & ATS Sync Helper</li></a></ul>'
+    ctx.body = createReadStream('src/Main/html/index.html')
 }
 
 function setupMainRouter(app: Koa)
