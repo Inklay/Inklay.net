@@ -2,7 +2,6 @@
   "name": "inklay.github.io",
   "version": "1.0.0",
   "description": "Web service for all my projects",
-  "main": "dist/app.js",
   "dependencies": {
     "@types/koa": "^2.11.7",
     "@types/koa-bodyparser": "^4.3.0",
@@ -26,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Inklay/Inklay.github.io.git"
+    "url": "git+https://github.com/Inklay/WebService.git"
   },
   "author": "Inklay",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Inklay/Inklay.github.io/issues"
+    "url": "https://github.com/Inklay/WebService/issues"
   }
 }
