@@ -1,2 +1,2 @@
-# Inklay.github.io
+# WebService
 Web service for all my projects
