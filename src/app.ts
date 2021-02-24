@@ -1,12 +1,19 @@
 // External imports
+import fs from 'fs'
 import Koa from 'koa'
 import http from 'http'
 import http2 from 'http2'
-import fs from 'fs'
+import mount from 'koa-mount'
+import serve from 'koa-static'
 import { constants } from 'crypto'
 
 // General
 const app = new Koa()
+const react = new Koa()
+react.use(serve("frontend/build"))
+app.use(mount('/', react))
+app.use(mount('/SyncHelper', react))
+app.use(mount('/Pokemon-TCG', react))
 var server: any
 
 // HTTP Unsecured Server
@@ -26,7 +33,7 @@ function setupHttp() {
     }
     else
     {
-            server = http.createServer().listen(port).on('request', app.callback())
+        server = http.createServer().listen(port).on('request', app.callback())
     }
     console.log(`Server running HTTP at http://127.0.0.1:${port}`)
 }
@@ -69,7 +76,6 @@ function setupFallback() {
 
 // Routers
 function setupRouters() {
-    require('./Main/router')(app)
     require('./SyncHelper/router')(app)
 }
 
