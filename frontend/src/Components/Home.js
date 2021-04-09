@@ -16,7 +16,10 @@ const Home = () => {
                 <div className="title">
                     Latest news:
                 </div>
-                20 february 2021: Website creation
+                <ul>
+                    <li>9th april 2021: SyncHelper 5.9.0 released</li>
+                    <li>20th february 2021: Website creation</li>
+                </ul>
                 <div className="title">
                     Current projects:
                 </div>

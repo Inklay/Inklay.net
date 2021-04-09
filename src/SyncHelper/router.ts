@@ -6,7 +6,7 @@ import bodyParser from 'koa-bodyparser'
 
 function checkVersion(ctx: any)
 {
-    if (ctx.request.query.v == "5.8.2")
+    if (ctx.request.query.v == "5.9.0")
     {
         ctx.body = "current"
     }

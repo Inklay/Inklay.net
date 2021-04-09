@@ -26,7 +26,7 @@ const SyncHelper = () => {
                     </div>
                     This software currently works with:
                     <ul>
-                        <li>Euro Truck Simulator 2 version 1.39</li>
+                        <li>Euro Truck Simulator 2 version 1.39+</li>
                         <li>Supported DLCs:</li>
                         <ul>
                             <li>Scandinavia</li>
@@ -37,10 +37,11 @@ const SyncHelper = () => {
                             <li>Heavy Cargo Pack</li>
                             <li>Beyond the Baltic Sea</li>
                             <li>Road to the Black Sea</li>
+                            <li>Iberia</li>
                         </ul>
                     </ul>
                     <ul>
-                        <li>Americain Truck Simulator version 1.39</li>
+                        <li>Americain Truck Simulator version 1.39+</li>
                         <li>Supported DLCs:</li>
                         <ul>
                             <li>New Mexico</li>
@@ -90,27 +91,26 @@ const SyncHelper = () => {
                     Here is the list of all the planned feature for this software:
                     <ul>
                         <li>Support ProMods packs</li>
-                        <li>Support Iberia DLC when it will come out</li>
                         <li>Support Wyoming DLC when it will come out</li>
                         <li>Update the job lists to support multiple DLC (currently working on it)</li>
                     </ul>
                     <div className="title">
                         Changelog:
                     </div>
-                    11 Frebruary 2021 - Version 5.8.2
+                    11th Frebruary 2021 - Version 5.8.2
                     <ul>
                         <li>Updated server address</li>
                     </ul>
-                    20 January 2021 - Version 5.8.1
+                    20th January 2021 - Version 5.8.1
                     <ul>
                         <li>Added ATS Colordao DLC compatibility</li>
                     </ul>
-                    10 November 2020 - Version 5.8.0
+                    10th November 2020 - Version 5.8.0
                     <ul>
                         <li>Added ATS compatibility</li>
                         <li>Fixed some bugs with the server communication</li>
                     </ul>
-                    16 October 2020 - Version 5.7.0
+                    16th October 2020 - Version 5.7.0
                     <ul>
                         <li>Added 1.37 (currently supporting 1.38) and newer ETS2 version support</li>
                         <li>Added ETS2 "Road to the black sea" DLC</li>
