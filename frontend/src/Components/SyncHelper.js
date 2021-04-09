@@ -92,11 +92,18 @@ const SyncHelper = () => {
                     <ul>
                         <li>Support ProMods packs</li>
                         <li>Support Wyoming DLC when it will come out</li>
-                        <li>Update the job lists to support multiple DLC (currently working on it)</li>
+                        <li>Support Heart of Russia DLC when it will come out</li>
+                        <li>Support Texas DLC when it will come out</li>
                     </ul>
                     <div className="title">
                         Changelog:
                     </div>
+                    9th April 2021 - Version 5.9.0
+                    <ul>
+                        <li>Added Iberia DLC support</li>
+                        <li>Updated job list format: jobs can be from multiple DLC, allowing longer jobs</li>
+                        <li>Added an option to select Steam installation folder (this feature is currently useless but will be used to support steam cloud profile)</li>
+                    </ul> 
                     11th Frebruary 2021 - Version 5.8.2
                     <ul>
                         <li>Updated server address</li>
