@@ -43,9 +43,9 @@ function setupHttps() {
     const port: string = process.env.SPORT || '443'
     const SSLOptions = {
         allowHTTP1: true,
-        key: fs.readFileSync(`${process.env.CERTIFICATES}/privkey2.pem`),
-        cert: fs.readFileSync(`${process.env.CERTIFICATES}/cert2.pem`),
-        ca: fs.readFileSync(`${process.env.CERTIFICATES}/chain2.pem`),
+        key: fs.readFileSync(`${process.env.CERTIFICATES}/privkey3.pem`),
+        cert: fs.readFileSync(`${process.env.CERTIFICATES}/cert3.pem`),
+        ca: fs.readFileSync(`${process.env.CERTIFICATES}/chain3.pem`),
         secureOptions: constants.SSL_OP_NO_SSLv2 | constants.SSL_OP_NO_SSLv3 | constants.SSL_OP_NO_TLSv1 | constants.SSL_OP_NO_TLSv1_1
     }
     server = http2.createSecureServer(SSLOptions).listen(port).on('request', app.callback())
